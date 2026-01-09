@@ -1,0 +1,36 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+div {
+    background-color: white;
+margin: auto;
+    width: 338px;
+    border-radius: 20px;
+    box-shadow: 10px 10px hsl(0, 0%, 7%);
+    border: 15px    solid white;
+    font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500, 800;
+  font-style: normal;
+}
+.round {
+    border-radius: 15px;
+    width: 100%;
+}
+h2 {
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+}
+p {
+    font-size: 16px;
+}
+span {
+    font-weight: bold;
+    text-align: right;
+}
+.avatar {
+    border-radius: 50%;
+    width: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
