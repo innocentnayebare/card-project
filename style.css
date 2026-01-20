@@ -12,6 +12,7 @@ margin: auto;
   font-optical-sizing: auto;
   font-weight: 500, 800;
   font-style: normal;
+  font-size: 16px;
 }
 .round {
     border-radius: 15px;
@@ -33,4 +34,14 @@ span {
     width: 40px;
     vertical-align: middle;
     margin-right: 10px;
+}
+@media (max-width: 600px) {
+    .card {
+        width: 375px;
+    }
+}
+@media (min-width: 601px) {
+    .card {
+        width: 338px;
+    }
 }
